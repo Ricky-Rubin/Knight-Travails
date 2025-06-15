@@ -45,10 +45,10 @@ function moveKnight(from, toward) {
                         direction: [...presentPosition.direction, [newX, newY]]
                     }
                 );
-                passedPoints.add(marker);
             }
         }
     }
 }
 
 moveKnight([0, 0], [7, 7]);
+// Test example to check if the code provides the correct result.
